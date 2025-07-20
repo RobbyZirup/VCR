@@ -21,7 +21,7 @@
       box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
       background-color: #f4f4f4;
       transition: all 0.3s ease-in;
-
+      z-index: 999;
    }
    
    .card:hover {
