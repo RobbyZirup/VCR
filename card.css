@@ -148,6 +148,7 @@
             grid-template-columns: 1fr;
             margin: 0 auto;
             padding-top:3em;
+            margin-top: 3em;
          }
 
          .card {
