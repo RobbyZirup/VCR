@@ -1,0 +1,17 @@
+# Verified Casino Reviews — robots.txt
+# https://www.verifiedcasinoreviews.com
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Block access to any future admin or private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Crawl delay — be polite to the server
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://www.verifiedcasinoreviews.com/sitemap.xml
